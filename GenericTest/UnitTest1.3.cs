@@ -9,8 +9,8 @@ namespace TestProgram
         public void Third_Value_Greater()
         {
             GenericMax number = new GenericMax();
-            float val = number.FindMax(20.59f, 10.31f, 40.3f);
-            Assert.AreEqual(val, 40.3f);
+            string val = number.FindMax("Apple", "Peach", "Banana");
+            Assert.AreEqual(val, "Banana");
         }
     }
 }

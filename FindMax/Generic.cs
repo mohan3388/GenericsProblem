@@ -9,15 +9,18 @@ namespace FindMaxNumber
     public class GenericMax
     {
 
-        public float FindMax(float first, float second, float third)
+        public string FindMax(string first, string second, string third)
         {
+            int length1 = first.Length;
+            int length2 = second.Length;
+            int length3 = third.Length;
 
-            if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
+            if (length1.CompareTo(length2) > 0 && length1.CompareTo(length3) > 0)
             {
                 Console.WriteLine("First Number is Greater");
                 return first;
             }
-            if (second.CompareTo(first) >= 0 && second.CompareTo(third) > 0)
+            if (length2.CompareTo(length1) >= 0 && length2.CompareTo(length3) > 0)
             {
                 Console.WriteLine("Second Number is Greater");
                 return second;
