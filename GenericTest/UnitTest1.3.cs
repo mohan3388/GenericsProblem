@@ -9,8 +9,8 @@ namespace TestProgram
         public void Third_Value_Greater()
         {
             GenericMax number = new GenericMax();
-            int val = number.FindMax(20, 10, 40);
-            Assert.AreEqual(val, 40);
+            float val = number.FindMax(20.59f, 10.31f, 40.3f);
+            Assert.AreEqual(val, 40.3f);
         }
     }
 }
