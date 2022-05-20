@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic.csproj", "{ADBC5CB7-2713-46B9-8A39-1004BDDF0FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMax", "..\FindMax\FindMax.csproj", "{C0F78C47-741C-40CE-8797-F710EE132FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTest", "..\GenericTest\GenericTest.csproj", "{8DC638A0-B5FB-4CA6-889D-B6129F201E7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADBC5CB7-2713-46B9-8A39-1004BDDF0FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBC5CB7-2713-46B9-8A39-1004BDDF0FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBC5CB7-2713-46B9-8A39-1004BDDF0FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBC5CB7-2713-46B9-8A39-1004BDDF0FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F78C47-741C-40CE-8797-F710EE132FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F78C47-741C-40CE-8797-F710EE132FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F78C47-741C-40CE-8797-F710EE132FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F78C47-741C-40CE-8797-F710EE132FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC638A0-B5FB-4CA6-889D-B6129F201E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC638A0-B5FB-4CA6-889D-B6129F201E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC638A0-B5FB-4CA6-889D-B6129F201E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC638A0-B5FB-4CA6-889D-B6129F201E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B7E1EED-8B8B-4FAB-A602-DBB093E91A35}
+	EndGlobalSection
+EndGlobal
