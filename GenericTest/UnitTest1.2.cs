@@ -8,9 +8,9 @@ namespace TestProgram
         [Test]
         public void Second_Value_Greater()
         {
-            GenericMax number = new GenericMax();
-            string val = number.FindMax("Apple", "Banana", "Peach");
-            Assert.AreEqual(val, "Banana");
+            GenericMax<float> number = new GenericMax<float>(8.5f,10.2f,15.04f);
+            float val = number.FindMax();
+            Assert.AreEqual(val, 15.04f);
         }
     }
 }

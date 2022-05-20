@@ -8,8 +8,8 @@ namespace TestProgram
         [Test]
         public void Third_Value_Greater()
         {
-            GenericMax number = new GenericMax();
-            string val = number.FindMax("Apple", "Peach", "Banana");
+            GenericMax<string> number = new GenericMax<string>("Apple", "Peach", "Banana");
+            string val = number.FindMax();
             Assert.AreEqual(val, "Banana");
         }
     }

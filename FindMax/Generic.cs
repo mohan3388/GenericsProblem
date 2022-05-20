@@ -6,21 +6,25 @@ using System.Threading.Tasks;
 
 namespace FindMaxNumber
 {
-    public class GenericMax
+    public class GenericMax<T>where T: IComparable<T>
     {
-
-        public string FindMax(string first, string second, string third)
+        public T first, second, third;
+        public GenericMax(T first, T second, T third)
         {
-            int length1 = first.Length;
-            int length2 = second.Length;
-            int length3 = third.Length;
+            this.first = first;
+            this.second = second;
+            this.third = third;
+        }
+        public T FindMax()
+        {
+           
 
-            if (length1.CompareTo(length2) > 0 && length1.CompareTo(length3) > 0)
+            if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
             {
                 Console.WriteLine("First Number is Greater");
                 return first;
             }
-            if (length2.CompareTo(length1) >= 0 && length2.CompareTo(length3) > 0)
+            if (second.CompareTo(first) >= 0 && second.CompareTo(third) > 0)
             {
                 Console.WriteLine("Second Number is Greater");
                 return second;
