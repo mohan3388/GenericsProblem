@@ -8,10 +8,10 @@ namespace TestProgram
         [Test]
         public void First_Value_Greater()
         {
-            GenericMax<int> number = new GenericMax<int>();
-            int[] arr = { 10, 14, 18, 22, 30 };
-            int val = number.MaximumElement(arr);
-            Assert.AreEqual(val, 30);
+            GenericMax<int> number = new GenericMax<int>(1, 5, 10);
+            
+            int val = number.FindMax();
+            Assert.AreEqual(val, 10);
         }
     }
 

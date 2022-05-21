@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Generic
 {
-    public class GeneicProblem
+    public class GenericProblem
     {
         public void MaxInt<T>(T[] arr)
         {
